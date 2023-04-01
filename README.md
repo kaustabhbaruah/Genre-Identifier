@@ -35,11 +35,16 @@ The code uses the trained model to make a prediction on a single audio file. The
 
 In summary, the code performs the following tasks:
 
-Loads the GTZAN Genre Collection dataset from Google Drive
-Extracts audio features (MFCCs) from each song in the dataset
-Splits the dataset into a training set and a testing set
-Creates and trains a machine learning model to classify the genre of a song based on its audio features
-Evaluates the accuracy of the model on the testing set
+Loads the GTZAN Genre Collection dataset from Google Drive.
+
+Extracts audio features (MFCCs) from each song in the dataset.
+
+Splits the dataset into a training set and a testing set.
+
+Creates and trains a machine learning model to classify the genre of a song based on its audio features.
+
+Evaluates the accuracy of the model on the testing set.
+
 Makes a prediction on a single audio file.
 
 
